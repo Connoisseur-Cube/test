@@ -58,7 +58,7 @@ g++ -Wall -std=c++17 -g -o ws w7_p2.cpp SongCollection.cpp
 After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):
 
 ```bash
-valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws
+valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws songs.txt
 ```
 
 - `--show-error-list=yes`: show the list of detected errors

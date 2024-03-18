@@ -43,7 +43,11 @@ Every file that you submit must contain (as a comment) at the top **your name**,
 All your code should be compiled using this command on `matrix`:
 
 ```bash
-g++ -Wall -std=c++17 -g -o ws file1.cpp file2.cpp ...
+g++ -Wall -std=c++17 -g -o ws w7_p1.cpp SongCollection.cpp
+```
+
+```bash
+g++ -Wall -std=c++17 -g -o ws w7_p2.cpp SongCollection.cpp
 ```
 
 - `-Wall`: compiler will report all warnings

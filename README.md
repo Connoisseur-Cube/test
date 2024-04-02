@@ -16,17 +16,13 @@ All files that you submit (`*.h` and `*.cpp`) should contain the following comme
 All your code should be compiled using this command on `matrix`:
 
 ```bash
-g++ -Wall -std=c++17 -g -o ws w7_p1.cpp SongCollection.cpp
-```
-
-```bash
-g++ -Wall -std=c++17 -g -o ws w7_p2.cpp SongCollection.cpp
+g++ -Wall -std=c++17 -g -o ws ms1.cpp Utilities.cpp Station.cpp
 ```
 
 After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):
 
 ```bash
-valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws songs.txt
+valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws 
 ```
 
 # Milestone 1

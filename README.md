@@ -22,7 +22,7 @@ g++ -Wall -std=c++17 -g -o ws ms1.cpp Utilities.cpp Station.cpp
 After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):
 
 ```bash
-valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws 
+valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ws Stations1.txt Stations2.txt
 ```
 
 # Milestone 1

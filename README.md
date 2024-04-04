@@ -24,7 +24,7 @@ g++ -Wall -std=c++17 -g -o ms1 ms1.cpp Utilities.cpp Station.cpp
 MS2:
 
 ```bash
-g++ -Wall -std=c++17 -g -o ms2 ms1.cpp Utilities.cpp Station.cpp CustomerOrder.cpp
+g++ -Wall -std=c++17 -g -o ms2 ms2.cpp Utilities.cpp Station.cpp CustomerOrder.cpp
 ```
 
 After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):

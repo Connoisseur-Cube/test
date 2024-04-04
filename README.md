@@ -37,7 +37,7 @@ valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-o
 MS2:
 
 ```bash
-valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ms2 CustomerOrders.txt
+valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ms2 Stations1.txt Stations2.txt CustomerOrders.txt
 ```
 
 # Milestone 1

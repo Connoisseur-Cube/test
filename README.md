@@ -24,7 +24,12 @@ g++ -Wall -std=c++17 -g -o ms1 ms1.cpp Utilities.cpp Station.cpp
 MS2:
 
 ```bash
-g++ -Wall -std=c++17 -g -o ms2 ms2.cpp Utilities.cpp Station.cpp CustomerOrder.cpp
+g++ -Wall -std=c++17 -g -o ms2 ms2.cpp Utilities.cpp Station.cpp CustomerOrder.cpp 
+```
+MS3:
+
+```bash
+g++ -Wall -std=c++17 -g -o ms3 ms3.cpp Utilities.cpp Station.cpp CustomerOrder.cpp LineManager.cpp Workstation.cpp
 ```
 
 After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):
@@ -38,6 +43,11 @@ MS2:
 
 ```bash
 valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ms2 Stations1.txt Stations2.txt CustomerOrders.txt
+```
+MS3:
+
+```bash
+valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./ms3 Stations1.txt Stations2.txt CustomerOrders.txt AssemblyLine.txt
 ```
 
 # Milestone 1
